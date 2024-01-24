@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* font-family: "Inter", sans-serif; */
+
+:root {
+  --primary-orange: hsl(35, 77%, 62%);
+  --primary-red : hsl(5, 85%, 63%);
+  --neutral-white: hsl(36, 100%, 99%);
+  --gray-blue : hsl(233, 8%, 79%);
+  --dark-grayblue: hsl(236, 13%, 42%);
+  --dark-blue: hsl(240, 100%, 5%)
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif; ;
+}
+
+body{
+  margin: 20px;
+  background: var(--neutral-white);
+  /* ChatGPT */
+  display: flex;
+  flex-direction: column; /* Centraliza os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+
+}
+

@@ -1,0 +1,36 @@
+@import './../../App.css';
+
+.menu{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+img{
+  width:auto;
+  height: auto
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+li {
+  list-style: none;
+  color: var(--dark-grayblue);
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+li:hover {
+  color: var(--primary-orange);
+  transition: 0.3s;
+
+}
+
+
+
